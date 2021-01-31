@@ -5,7 +5,7 @@ from pydub.playback import play
 import time
 
 def converter():
-    df = pd.read_csv('morse_data.csv')
+    df = pd.read_csv('Data/morse_data.csv')
     morse_dict = dict(zip(df.Letter, df.Morse))
     text = text_input.get("1.0", "end")
     codes = ''
@@ -19,8 +19,8 @@ def converter():
 
 def sound_gen():
     codes = translation.get("1.0", "end")
-    period = AudioSegment.from_wav('period.wav')
-    hyphen = AudioSegment.from_wav('hyphen.wav')
+    period = AudioSegment.from_wav('Data/period.wav')
+    hyphen = AudioSegment.from_wav('Data/hyphen.wav')
     for char in codes:
         if '.' == char:
             play(period)
