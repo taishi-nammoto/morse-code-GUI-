@@ -2,8 +2,8 @@
 [This script](https://github.com/taishi-nammoto/morse-code-GUI-/blob/main/main.py) allows you to convert text to morse codes and make sound signals.
 
 ## Example 
-By using tkinter, a GUI displays a window below.
-<img src="https://github.com/taishi-nammoto/morse-code-GUI-/blob/main/Data/sample_img.png" width="100">
+By using tkinter, a GUI displays a window below. <br>
+<img src="https://github.com/taishi-nammoto/morse-code-GUI-/blob/main/Data/sample_img.png" width="800">
 
 ## Dataset
 [Data Scraping](https://github.com/taishi-nammoto/morse-code-GUI-/blob/main/data_scraping.ipynb) gets morse codes and saves a CSV file. 
