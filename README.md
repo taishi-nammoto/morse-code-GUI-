@@ -3,7 +3,7 @@
 
 ## Example 
 By using tkinter, a GUI displays a window below.
-![window](https://github.com/taishi-nammoto/morse-code-GUI-/blob/main/Data/sample_img.png){:height="60%" width="60%"}
+<img src="https://github.com/taishi-nammoto/morse-code-GUI-/blob/main/Data/sample_img.png" width="100">
 
 ## Dataset
 [Data Scraping](https://github.com/taishi-nammoto/morse-code-GUI-/blob/main/data_scraping.ipynb) gets morse codes and saves a CSV file. 
