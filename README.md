@@ -17,3 +17,6 @@ from pydub import AudioSegment
 from pydub.playback import play
 import time
 ```
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
